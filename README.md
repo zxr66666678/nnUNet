@@ -1,5 +1,5 @@
 # nnUNet
-比赛复现说明总结
+复现说明总结
  
 任务：Dataset601，DICOM二维切片转3D，使用nnUNet‑v2的 3d_fullres 做4类分割；训练fold取0/1，学习率0.005/0.01/0.02，每50个epoch保存模型，学习率、保存周期在自定义Trainer修改，fold在训练命令指定。
  
